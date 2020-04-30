@@ -35,7 +35,7 @@ function runTens() {
 }
 
 function validateTens() {
-  if(tens == 99) {
+  if(tens === 99) {
     tens = 0;
     tensText.innerHTML = '0' + tens;
 
@@ -55,7 +55,7 @@ function runSeconds() {
 }
 
 function validateSeconds() {
-  if (seconds == 59) {
+  if (seconds === 59) {
     seconds = 0;
     secondsText.innerHTML = '0' + seconds;
 
