@@ -1,0 +1,51 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  background: #99b2dd;
+  color: #fcecd8;
+}
+
+.stopwatch-container {
+  position: relative;
+  top: 300px;
+}
+
+.title {
+  /* display: none; */
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.stopwatch {
+  /* display: none; */
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.btn-action {
+  background: transparent;
+  font-size: 1em;
+  padding: .7em .5em;
+  margin-left: .5em;
+  border: 1px solid #fcecd8;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fcecd8;
+  outline: none;
+}
+
+.btn-action:hover {
+  cursor: pointer;
+  background: #fcecd8;
+  color: #99b2dd;
+  transition: all 0.3s ease-in-out;
+}
+
